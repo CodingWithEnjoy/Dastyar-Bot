@@ -1,10 +1,10 @@
 import requests
 import time
 
-TOKEN = '1617359307:PiNPnSiQ4g1h4CaQFPmyau5pI4glnNxYu3bneXet'
+TOKEN = ''
 BASE_URL = f'https://tapi.bale.ai/bot{TOKEN}/'
 
-WEATHER_API_KEY = '3045dd712ffe6e702e3245525ac7fa38'
+WEATHER_API_KEY = ''
 WEATHER_URL = f'http://api.openweathermap.org/data/2.5/weather?q=Tehran,IR&units=metric&appid={WEATHER_API_KEY}'
 
 BAD_WORDS = [
